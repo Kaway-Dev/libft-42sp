@@ -1,4 +1,4 @@
-#include <stdio.h>
+// #include <stdio.h>
 
 int ft_tolower(int c)
 {
@@ -9,8 +9,8 @@ int ft_tolower(int c)
     return c;
 }
 
-int main(void)
-{
-    printf("%d\n", ft_tolower(65));
-    return(0);
-}
+// int main(void)
+// {
+//     printf("%d\n", ft_tolower(65));
+//     return(0);
+// }
