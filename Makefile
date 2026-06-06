@@ -13,8 +13,8 @@ NAME        := libft.a
 # CFLAGS    compiler flags
 # CPPFLAGS  preprocessor flags
 
-SRCS        := ft_isdigit.c ft_strlen.c
-OBJS        := ft_isdigit.o ft_strlen.o
+SRCS        := # ft_isdigit.c ft_strlen.c ft_isalpha.c ft_isalpha.c
+OBJS        := $(SRCS:.c=.o)
 
 CC          := cc
 CFLAGS      := -Wall -Wextra -Werror

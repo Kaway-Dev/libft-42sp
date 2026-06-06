@@ -1,1 +1,2 @@
-void bzero
+#include "libft.h"
+
