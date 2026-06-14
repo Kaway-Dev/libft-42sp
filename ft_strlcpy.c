@@ -18,12 +18,12 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t size)
     return ft_strlen(src);
 }
 
-#include <stdio.h>
-int main(void)
-{
-    char src[] = "Gabriela";
-    char dst[5];
+// #include <stdio.h>
+// int main(void)
+// {
+//     char src[] = "Gabriela";
+//     char dst[5];
 
-    printf("%lu\n", (unsigned long)ft_strlcpy(dst, src, 5));
-    printf("%s\n", dst);
-}
+//     printf("%lu\n", (unsigned long)ft_strlcpy(dst, src, 5));
+//     printf("%s\n", dst);
+// }
