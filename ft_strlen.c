@@ -6,23 +6,22 @@
 /*   By: phkaway- <phkaway-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/06 17:57:12 by phkaway-          #+#    #+#             */
-/*   Updated: 2026/06/06 17:57:13 by phkaway-         ###   ########.fr       */
+/*   Updated: 2026/06/15 20:54:09 by phkaway-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-// #include <stdio.h>
 #include "libft.h"
 
-size_t ft_strlen(const char *s)
+size_t	ft_strlen(const char *s)
 {
-    int i;
+	int	i;
 
-    i = 0;
-    while(s[i] != '\0')
-    {
-        i++;
-    }
-    return (i);
+	i = 0;
+	while (s[i] != '\0')
+	{
+		i++;
+	}
+	return (i);
 }
 
 // int main(void)
