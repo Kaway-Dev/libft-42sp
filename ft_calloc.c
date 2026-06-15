@@ -23,7 +23,7 @@ void	*ft_calloc(size_t nmemb, size_t size)
 //     int *nums;
 //     int i;
 
-//     nums = ft_calloc(4, sizeof(int));
+//     nums = ft_calloc(4, sizeof(4294967296));
 //     if(nums == NULL)
 //         return (1);
 
