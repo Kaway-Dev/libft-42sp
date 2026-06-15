@@ -6,25 +6,25 @@
 /*   By: phkaway- <phkaway-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/15 19:45:40 by phkaway-          #+#    #+#             */
-/*   Updated: 2026/06/15 19:45:41 by phkaway-         ###   ########.fr       */
+/*   Updated: 2026/06/15 20:46:24 by phkaway-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char    *ft_strdup(const char *s)
+char	*ft_strdup(const char *s)
 {
-    char    *copy;
-    size_t  len;
+	char	*copy;
+	size_t	len;
 
-    len = ft_strlen(s);
-    copy = malloc(len + 1);
-    if (copy == NULL)
-        return (NULL);
+	len = ft_strlen(s);
+	copy = malloc(len + 1);
+	if (copy == NULL)
+		return (NULL);
 
-    ft_strlcpy(copy, s, len + 1);
+	ft_strlcpy(copy, s, len + 1);
 
-    return (copy);
+	return (copy);
 }
 
 // #include <stdio.h>

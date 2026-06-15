@@ -6,18 +6,17 @@
 /*   By: phkaway- <phkaway-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/15 20:06:14 by phkaway-          #+#    #+#             */
-/*   Updated: 2026/06/15 20:15:50 by phkaway-         ###   ########.fr       */
+/*   Updated: 2026/06/15 20:43:36 by phkaway-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void 	ft_putstr_fd(char *s, int fd)
+void	ft_putstr_fd(char *s, int fd)
 {
-	if(!s)
+	if (!s)
 		return ;
-	
-	while(*s)
+	while (*s)
 	{
 		write(fd, s, 1);
 		s++;
