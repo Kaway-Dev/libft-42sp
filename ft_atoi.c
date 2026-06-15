@@ -6,21 +6,21 @@
 /*   By: phkaway- <phkaway-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/15 19:45:10 by phkaway-          #+#    #+#             */
-/*   Updated: 2026/06/15 19:45:12 by phkaway-         ###   ########.fr       */
+/*   Updated: 2026/06/15 19:53:34 by phkaway-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int ft_atoi(const char *nptr)
+int	ft_atoi(const char *nptr)
 {
-    int i;
-    int sign;
-    int result;
-    
+	int	i;
+	int	sign;
+	int	result;
+
     i = 0;
-    sign = 1;
-    result = 0;
+	sign = 1;
+	result = 0;
     while ((nptr[i] >= 9 && nptr[i] <= 13) || (nptr[i] == 32))
         i++;
 
