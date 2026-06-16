@@ -1,4 +1,4 @@
-# @author   clemedon (Clément Vidon)
+# @author   Ph (Philippe Kaway)
 ####################################### BEG_2 ####
 
 NAME        := libft.a
