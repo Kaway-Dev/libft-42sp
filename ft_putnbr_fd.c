@@ -6,7 +6,7 @@
 /*   By: phkaway- <phkaway-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/15 20:07:05 by phkaway-          #+#    #+#             */
-/*   Updated: 2026/06/17 17:56:52 by phkaway-         ###   ########.fr       */
+/*   Updated: 2026/06/17 18:33:45 by phkaway-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,14 +18,13 @@ void	ft_putnbr_fd(int n, int fd)
 
 	nb = n;
 	if (nb < 0)
-    {
-        ft_putchar_fd('-', fd);
-        nb = -nb;
-    }
-    if (nb >= 10) 
-        ft_putnbr_fd(nb / 10, fd);
-
-    ft_putchar_fd(nb % 10 + '0', fd);  
+	{
+		ft_putchar_fd('-', fd);
+		nb = -nb;
+	}
+	if (nb >= 10)
+		ft_putnbr_fd(nb / 10, fd);
+	ft_putchar_fd(nb % 10 + '0', fd);
 }
 
 // #include <stdio.h>
