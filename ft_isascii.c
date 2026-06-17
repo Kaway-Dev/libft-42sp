@@ -6,7 +6,7 @@
 /*   By: phkaway- <phkaway-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/06 17:56:42 by phkaway-          #+#    #+#             */
-/*   Updated: 2026/06/15 20:30:12 by phkaway-         ###   ########.fr       */
+/*   Updated: 2026/06/17 17:47:18 by phkaway-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ int	ft_isascii(int c)
 	{
 		return (1);
 	}
-	return(0);
+	return (0);
 }
 
 // int main(void)
