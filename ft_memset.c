@@ -6,7 +6,7 @@
 /*   By: phkaway- <phkaway-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/06 17:57:04 by phkaway-          #+#    #+#             */
-/*   Updated: 2026/06/15 20:39:40 by phkaway-         ###   ########.fr       */
+/*   Updated: 2026/06/17 17:55:30 by phkaway-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 void	*ft_memset(void *s, int c, size_t n)
 {
 	unsigned char	*ptr;
-	size_t	i;
+	size_t			i;
 
 	i = 0;
 	ptr = (unsigned char *)s;
@@ -24,7 +24,7 @@ void	*ft_memset(void *s, int c, size_t n)
 		ptr[i] = c;
 		i++;
 	}
-	return s;
+	return (s);
 }
 
 // int main (void)

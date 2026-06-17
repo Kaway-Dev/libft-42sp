@@ -6,7 +6,7 @@
 /*   By: phkaway- <phkaway-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/15 19:46:29 by phkaway-          #+#    #+#             */
-/*   Updated: 2026/06/15 19:46:30 by phkaway-         ###   ########.fr       */
+/*   Updated: 2026/06/17 18:03:43 by phkaway-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,9 @@
 
 char *ft_substr(char const *s, unsigned int start, size_t len)
 {
-    size_t  s_len; // string ori
-    size_t  sub_len; // quanto vou copiar/alocar
-    char    *sub; // nova string que eu retorno
+    size_t  s_len;
+    size_t  sub_len;
+    char    *sub;
 
     s_len = ft_strlen(s);
     if(start >= s_len)

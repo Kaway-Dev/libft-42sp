@@ -6,7 +6,7 @@
 /*   By: phkaway- <phkaway-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/15 19:45:01 by phkaway-          #+#    #+#             */
-/*   Updated: 2026/06/15 20:26:59 by phkaway-         ###   ########.fr       */
+/*   Updated: 2026/06/17 17:53:06 by phkaway-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 void	ft_bzero(void *s, size_t n)
 {
 	unsigned char	*ptr;
-	size_t	i;
+	size_t			i;
 
 	i = 0;
 	ptr = (unsigned char *)s;
