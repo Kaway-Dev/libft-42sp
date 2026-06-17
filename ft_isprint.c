@@ -6,13 +6,13 @@
 /*   By: phkaway- <phkaway-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/06 17:56:56 by phkaway-          #+#    #+#             */
-/*   Updated: 2026/06/17 17:47:30 by phkaway-         ###   ########.fr       */
+/*   Updated: 2026/06/17 18:23:24 by phkaway-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int ft_isprint(int c)
+int	ft_isprint(int c)
 {
 	if (c >= 32 && c <= 126)
 	{
