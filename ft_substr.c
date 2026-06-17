@@ -6,7 +6,7 @@
 /*   By: phkaway- <phkaway-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/15 19:46:29 by phkaway-          #+#    #+#             */
-/*   Updated: 2026/06/17 18:20:01 by phkaway-         ###   ########.fr       */
+/*   Updated: 2026/06/17 18:31:06 by phkaway-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,16 +21,13 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	s_len = ft_strlen(s);
 	if (start >= s_len)
 		return (ft_strdup(""));
-
 	if (len > s_len - start)
 		sub_len = s_len - start;
 	else
 		sub_len = len;
-
 	sub = malloc(sub_len + 1);
 	if (sub == NULL)
 		return (NULL);
-
 	ft_strlcpy(sub, s + start, sub_len + 1);
 	return (sub);
 }

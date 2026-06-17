@@ -6,7 +6,7 @@
 /*   By: phkaway- <phkaway-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/15 19:45:44 by phkaway-          #+#    #+#             */
-/*   Updated: 2026/06/17 18:02:40 by phkaway-         ###   ########.fr       */
+/*   Updated: 2026/06/17 18:29:20 by phkaway-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,10 +23,8 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	join = malloc(first_len + second_len + 1);
 	if (join == NULL)
 		return (NULL);
-
 	ft_strlcpy(join, s1, first_len + 1);
 	ft_strlcpy(join + first_len, s2, second_len + 1);
-
 	return (join);
 }
 

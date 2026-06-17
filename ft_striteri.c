@@ -6,7 +6,7 @@
 /*   By: phkaway- <phkaway-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/17 17:59:22 by phkaway-          #+#    #+#             */
-/*   Updated: 2026/06/17 18:02:27 by phkaway-         ###   ########.fr       */
+/*   Updated: 2026/06/17 18:30:14 by phkaway-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,6 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 
 	if (!s || !f)
 		return ;
-
 	i = 0;
 	while (s[i] != '\0')
 	{

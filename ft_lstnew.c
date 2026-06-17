@@ -6,7 +6,7 @@
 /*   By: phkaway- <phkaway-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/17 17:47:45 by phkaway-          #+#    #+#             */
-/*   Updated: 2026/06/17 17:49:21 by phkaway-         ###   ########.fr       */
+/*   Updated: 2026/06/17 18:30:48 by phkaway-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,6 @@ t_list	*ft_lstnew(void *content)
 	new = malloc(sizeof(t_list));
 	if (new == NULL)
 		return (NULL);
-
 	new->content = content;
 	new->next = NULL;
 	return (new);

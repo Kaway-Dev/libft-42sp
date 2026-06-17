@@ -6,7 +6,7 @@
 /*   By: phkaway- <phkaway-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/17 18:03:02 by phkaway-          #+#    #+#             */
-/*   Updated: 2026/06/17 18:14:33 by phkaway-         ###   ########.fr       */
+/*   Updated: 2026/06/17 18:31:37 by phkaway-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,12 +20,10 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 
 	if (!s || !f)
 		return (NULL);
-
 	len = ft_strlen(s);
 	result = malloc(len + 1);
 	if (result == NULL)
 		return (NULL);
-
 	i = 0;
 	while (s[i] != '\0')
 	{

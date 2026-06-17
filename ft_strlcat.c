@@ -6,7 +6,7 @@
 /*   By: phkaway- <phkaway-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/15 19:45:49 by phkaway-          #+#    #+#             */
-/*   Updated: 2026/06/17 18:11:30 by phkaway-         ###   ########.fr       */
+/*   Updated: 2026/06/17 18:30:25 by phkaway-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,15 +23,12 @@ size_t	ft_strlcat(char *dst, const char *src, size_t size)
 	i = 0;
 	if (size <= dst_len)
 		return (size + src_len);
-
 	while (src[i] != '\0' && dst_len + i < size - 1)
 	{
 		dst[dst_len + i] = src[i];
 		i++;
 	}
-
 	dst[dst_len + i] = '\0';
-
 	return (dst_len + src_len);
 }
 

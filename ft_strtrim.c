@@ -6,7 +6,7 @@
 /*   By: phkaway- <phkaway-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/15 19:46:24 by phkaway-          #+#    #+#             */
-/*   Updated: 2026/06/17 18:17:12 by phkaway-         ###   ########.fr       */
+/*   Updated: 2026/06/17 18:31:16 by phkaway-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,6 @@ char	*ft_strtrim(char const *s1, char const *set)
 		start++;
 	while (end > start && ft_strchr(set, s1[end - 1]))
 		end --;
-
 	return (ft_substr(s1, start, end - start));
 }
 

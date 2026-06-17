@@ -6,7 +6,7 @@
 /*   By: phkaway- <phkaway-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/15 19:45:40 by phkaway-          #+#    #+#             */
-/*   Updated: 2026/06/15 20:46:24 by phkaway-         ###   ########.fr       */
+/*   Updated: 2026/06/17 18:29:09 by phkaway-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,9 +21,7 @@ char	*ft_strdup(const char *s)
 	copy = malloc(len + 1);
 	if (copy == NULL)
 		return (NULL);
-
 	ft_strlcpy(copy, s, len + 1);
-
 	return (copy);
 }
 
