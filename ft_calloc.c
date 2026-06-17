@@ -6,7 +6,7 @@
 /*   By: phkaway- <phkaway-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/15 19:45:17 by phkaway-          #+#    #+#             */
-/*   Updated: 2026/06/15 20:28:01 by phkaway-         ###   ########.fr       */
+/*   Updated: 2026/06/17 17:26:37 by phkaway-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,11 +20,11 @@ void	*ft_calloc(size_t nmemb, size_t size)
 	total = nmemb * size;
 
 	ptr = malloc(total);
-	if(ptr == NULL)
-		return NULL;
+	if (ptr == NULL)
+		return (NULL);
 
 	ft_bzero(ptr, total);
-	return ptr;
+	return (ptr);
 }
 
 // #include <stdlib.h>

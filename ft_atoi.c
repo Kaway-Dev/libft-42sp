@@ -6,7 +6,7 @@
 /*   By: phkaway- <phkaway-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/15 19:45:10 by phkaway-          #+#    #+#             */
-/*   Updated: 2026/06/15 20:25:55 by phkaway-         ###   ########.fr       */
+/*   Updated: 2026/06/17 17:26:13 by phkaway-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ int	ft_atoi(const char *nptr)
 
 	if (nptr[i] == '-' || nptr[i] == '+')
 	{
-		if(nptr[i] == '-')
+		if (nptr[i] == '-')
 		sign = -1;
 		i++;
 	}
@@ -37,7 +37,7 @@ int	ft_atoi(const char *nptr)
 		i++;
 	}
 	return (result * sign);
-} 
+}
 
 // #include <stdio.h>
 
