@@ -6,9 +6,11 @@
 /*   By: phkaway- <phkaway-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/15 20:06:45 by phkaway-          #+#    #+#             */
-/*   Updated: 2026/06/17 17:56:16 by phkaway-         ###   ########.fr       */
+/*   Updated: 2026/06/17 18:36:25 by phkaway-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 void	ft_putendl_fd(char *s, int fd)
 {
