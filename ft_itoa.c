@@ -10,3 +10,28 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
+
+static  int count_len(long nb)
+{
+    unsigned int    numbers;
+
+    if (nb == 0)
+        return (1);
+    if (nb < 0)
+        numbers = 1;
+    else
+        numbers = 0;
+
+    while (nb != 0)
+    {
+        numbers++;
+        nb = nb/10;
+    }
+    return (numbers);
+}
+
+char	*ft_itoa(int n)
+{
+
+}
