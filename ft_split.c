@@ -51,3 +51,53 @@ static  char **split_free(char **result, int i)
     free(result);
     return (NULL);
 }
+
+static char	**fill_split(char **result, char const *s, char c)
+{
+	int	i;
+	int	j;
+	int	len;
+
+	i = 0;
+	j = 0;
+	while (s[i])
+	{
+		while (s[i] && s[i] == c)
+			i++;
+		if (s[i])
+		{
+			len = word_len(s + i, c);
+			result[j] = ft_substr(s, i, len);
+			if (result[j] == NULL)
+				return (split_free(result, j));
+			j++;
+			i += len;
+		}
+	}
+	result[j] = NULL;
+	return (result);
+}
+
+char	**ft_split(char const *s, char c)
+{
+    char	**result;
+	int		words;
+
+	if (s == NULL)
+		return (NULL);
+	words = count_words(s, c);
+	result = malloc(sizeof(char *) * (words + 1));
+	if (result == NULL)
+		return (NULL);
+	return (fill_split(result, s, c));
+}
+
+// #include <stdio.h>
+// int main(void)
+// {
+//     char **arr = ft_split("Ola, mundo, 42", ' ');
+//     printf("%s\n", arr[0]);
+//     printf("%s\n", arr[1]);
+//     printf("%s\n", arr[2]);
+//     return (0);
+// }
