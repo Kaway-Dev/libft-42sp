@@ -13,7 +13,7 @@ NAME        := libft.a
 # CFLAGS    compiler flags
 # CPPFLAGS  preprocessor flags
 
-SRCS        := ft_strlen.c ft_bzero.c ft_strlcpy.c ft_strchr.c ft_strdup.c ft_substr.c ft_putchar_fd.c ft_putstr_fd.c ft_lstlast.c ft_lstdelone.c
+SRCS        := ft_strlen.c ft_bzero.c ft_strlcpy.c ft_strchr.c ft_strdup.c ft_substr.c ft_putchar_fd.c ft_putstr_fd.c ft_lstlast.c ft_lstdelone.c ft_lstnew.c ft_lstclear.c ft_lstadd_back.c 
 OBJS        := $(SRCS:.c=.o)
 
 CC          := cc
